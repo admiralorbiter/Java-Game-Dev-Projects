@@ -37,6 +37,38 @@ Directions
 ## Building
 ![Building](Lovecraft_Crossing/lovecraft-ss-building.gif)
 
+# Cat Genetics - Proof of Concept
+
+Written in one 8-hour car ride in a fever dream. I'm pretty sure the idea came from an interview from the developer of Binding of Issac on one of his canceled games.
+
+A list of cats is generated with a random element (fire, wind, lighting, earth, water). The user isn't told what each cat is. The user can then select a cat (using 0-9) and test the cat against another element. 
+
+The combination result can then give you a hint at which element the cat is (assuming the element doesn't kill the cat). You can also mate cats to create new cats with combination elements. The combo results are determined about how the elements interact.
+
+Finished Mechanics:
+* Random Generation - Generate a random element for each cat
+* Select Cat - Select a cat to test against another element
+* List of past results
+* Combination - Determine the combination of the two elements by mating two cats
+
+![demo](CatGenetics/catgenetics-show.gif)
+
+## Combination Results
+Heavily inspired by Naruto elements.
+
+* Fire + Wind = Scorch
+* Fire + Water = Boil
+* Fire + Earth = Lava
+* Fire + Lightning = Blaze
+
+* Wind + Earth = Poison
+* Wind + Lightning = Swift
+* Wind + Water = Ice
+
+* Lightning + Water = Storm
+* Lighting + earth = Explosion
+
+* Earth + Water = Wood
 
 # Mistborn Proof of Concept
 
@@ -52,7 +84,23 @@ Mechanics:
 ![Gif](Mistborn/screenshot2.gif)
 ![Screenshot](Mistborn/ss1.png)
 
+# Puzzle - Matching Game
+
+I wanted to create a very simple game in pure java in order to understand the basics of a gameplay loop and basic game engine.
+
+This is a very simple memory matching game. The cards are flipped over and the player has to match the two cards.
+
+![Screenshot](Puzzle/matchingame-ss.png)
+
+**Note:** I'm aware there is a bug where it doesn't show the second card when click on it.
+
+![Demo](Puzzle/matchingame.gif)
+
 # Checkers - Incomplete
 
 I was attempting to creating a small checkers game in order to explore game ai. 
 Unfortunately, I ended up abandoning the project pretty early.
+
+# Math Library - Incomplete
+
+I was attempting to creating a small math library in order to prototype educational games and simulations. I was able to create a few basic functions and a few basic classes dealing with vectors and matrices, but I didn't get much further than basic operations.

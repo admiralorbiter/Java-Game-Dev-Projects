@@ -9,7 +9,7 @@ For this proof of concept, you are able to:
 * Tell the player to cut trees
 * Set buildings and tell the player to build them (given a certain amount of resources)
 
-Mechanics:
+Finished Mechanics:
 * Pathfinding - A* algorithm
 * Prioritized Queue - Priority queue for pathfinding
 * Automatic Execution - Automatically execute commands until unable or finished
