@@ -94,6 +94,12 @@ This is a very simple memory matching game. The cards are flipped over and the p
 
 **Note:** I'm aware there is a bug where it doesn't show the second card when click on it.
 
+# SimPuzzleDesign
+
+This was going to be a small sim puzzle game set in a school. I got the basics of movement and dialogue working.
+
+![Screenshot](SimPuzzleDesign/simgame.gif)
+
 ![Demo](Puzzle/matchingame.gif)
 
 # Checkers - Incomplete
